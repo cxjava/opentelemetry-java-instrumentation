@@ -3,7 +3,7 @@ name: Build (daily)
 on:
   schedule:
     # daily at 3:24 UTC
-    - cron: "24 3 * * *"
+    # - cron: "24 3 * * *"
   workflow_dispatch:
 
 jobs:
