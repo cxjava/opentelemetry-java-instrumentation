@@ -3,7 +3,7 @@ name: Build (daily --no-build-cache)
 on:
   schedule:
     # daily at 4:48 UTC
-    - cron: "48 4 * * *"
+    # - cron: "48 4 * * *"
   workflow_dispatch:
 
 jobs:
